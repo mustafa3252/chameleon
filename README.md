@@ -12,7 +12,7 @@
 
 ## 🚀 Overview
 
-Chameleon is a powerful web application designed to breathe new life into legacy codebases. By leveraging the analytical power of AI, it provides instant, in-depth analysis and modernization insights for archaic file types like COBOL and JCL. Simply upload your files and let Chameleon reveal the underlying structure, logic, and potential for transformation.
+Chameleon is a powerful web application designed to breathe new life into legacy codebases. By leveraging the analytical power of AI, it provides instant, in-depth analysis and modernization insights for archaic file types like COBOL and JCL and transforms them into Python code (.py files). Simply upload your files and let Chameleon reveal the underlying structure, logic, and potential for transformation.
 
 ## ✨ Features
 
@@ -38,7 +38,7 @@ To get the application running locally, follow these steps:
 
 - Download [langflow](https://www.langflow.org) and import the `.json` file avilable at `langflow-flows/cob_to_py_with_JIT.json` into your langflow application (flow)
 
-- All the LLMs in the flow are powered by Mistral open-source models. Get your free api keys by signing-up at [mistral console](https://console.mistral.ai/).
+- All the LLMs in the flow are powered by Mistral open-source models. Get your free API keys by signing-up at [mistral console](https://console.mistral.ai/).
 
 
 
