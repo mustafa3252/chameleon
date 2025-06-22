@@ -34,6 +34,14 @@ Chameleon is a powerful web application designed to breathe new life into legacy
 
 To get the application running locally, follow these steps:
 
+### Langflow
+
+- Download [langflow](https://www.langflow.org) and import the `.json` file avilable at `langflow-flows/cob_to_py_with_JIT.json` into your langflow application (flow)
+
+- All the models in the flow are powered by Mistral open-source models. Get your free api keys by signing-up at [mistral console](https://console.mistral.ai/).
+
+
+
 ### Prerequisites
 
 - [Node.js](https://nodejs.org/) (v18 or newer)
@@ -62,10 +70,10 @@ To get the application running locally, follow these steps:
     ```
     The application will be available at `http://localhost:5173` (or another port if 5173 is in use).
 
-##  usage
+##  Usage
 
 1.  Open the web application in your browser.
-2.  Drag and drop your legacy code files (e.g., `.cbl`, `.jcl`) onto the upload area, or click to select them from your file system.
+2.  Drag and drop your legacy cobal code files (e.g., `.cbl`, `.jcl`) onto the upload area in `.txt` format as langflow doesn't accept cobal file extensions at the moment, or click to select them from your file system.
 3.  Once all desired files are selected, click the "Process Files" button.
 4.  The application will upload the files, trigger the AI analysis on the backend, and display the structured results.
 
