@@ -38,7 +38,7 @@ To get the application running locally, follow these steps:
 
 - Download [langflow](https://www.langflow.org) and import the `.json` file avilable at `langflow-flows/cob_to_py_with_JIT.json` into your langflow application (flow)
 
-- All the models in the flow are powered by Mistral open-source models. Get your free api keys by signing-up at [mistral console](https://console.mistral.ai/).
+- All the LLMs in the flow are powered by Mistral open-source models. Get your free api keys by signing-up at [mistral console](https://console.mistral.ai/).
 
 
 
